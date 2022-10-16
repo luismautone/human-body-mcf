@@ -1,4 +1,4 @@
-# Mean curvature flow for Fairness in Geometry Processing
+# Mean Curvature Flow for Fairness
 
 The Python script creates a human 3D model that no longer possesses a limb.
 The code simulates an amputation through the deformation of the human shape using a <i>mean curvature flow</i>, that has the effect of "smoothing out" the geometry.
