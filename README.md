@@ -5,9 +5,31 @@ The code simulates an amputation through the deformation of the human shape: fir
 
 ![](https://github.com/luismautone/MCF-FairnessGeometryProcessing/blob/main/images/mcf.gif)
 
-The explored method is part of my CS Master's thesis at Sapienza University titled <i>Fairness in Geometry Processing</i>.
+## Run
+
+<ul>
+  <li>Follow the ```smplpytorch``` setup procedure described in [gulvarol repo](https://github.com/gulvarol/smplpytorch)</li>
+  <li>Run the script by typing ```python main.py``` command in terminal</li>
+</ul>
+
+## Python dependencies
+
+<ul>
+  <li>[PyTorch](https://pytorch.org)</li>
+  <li>[Trimesh](https://github.com/mikedh/trimesh)</li>
+  <li>[Scipy](https://scipy.org)</li>
+  <li>[Numpy](https://numpy.org)</li>
+  <li>[robust-laplacian](https://pypi.org/project/robust-laplacian/)</li>
+</ul>
+
+## Acknowledgements
+
+The SMPL Pytorch module was cloned by [gulvarol](https://github.com/gulvarol/smplpytorch) repository by [Gul Varol](https://github.com/gulvarol), that implements [<b>SMPL</b>](https://smpl.is.tue.mpg.de) human body layer for PyTorch.
+
 
 ## Thesis project
+
+The explored method is part of my CS Master's thesis at Sapienza University titled <i>Fairness in Geometry Processing</i>.
 
 The thesis context is <b>Fair Machine Learning</b>, the study of correcting bias respect to sensitive variables in automated decision processes based on ML models.
 Generally current human body model generation methods create human bodies compliant with the standard person capabilities and we have very little material on bodies considered a deviation from the norm. The objective is to work on geometric methods that favor a representation of all human bodies in their diversity.
