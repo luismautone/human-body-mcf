@@ -21,4 +21,4 @@ Specifically we applied a <b><i>Conformalized Mean Curvature Flow</i></b> and we
 <p align="center"><img width="1141" alt="Schermata 2022-10-17 alle 12 06 27" src="https://user-images.githubusercontent.com/34343511/196150981-12eeeb9d-7508-406e-a1d1-67a85d75d3ab.png"></p>
 <p align="center"><img width="1283" alt="Schermata 2022-10-17 alle 12 06 33" src="https://user-images.githubusercontent.com/34343511/196151017-009fda55-5920-480d-8680-ce8027895ecc.png"></p>
 
-Next we trained an <b>Autoencoder Neural Network</b> on the dataset for the creation of latent spaces that contain the representation for both classes of bodies. For further details on this part [go here](https://github.com/luismautone/AE-FairnessGeometryProcessing).
+Next we trained an <b>Autoencoder Neural Network</b> on the dataset for the creation of latent spaces that contain the representation for both classes of bodies. For further details on this part [go here](https://github.com/luismautone/autoencoder-fairness).
