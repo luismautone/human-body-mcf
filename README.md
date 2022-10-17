@@ -3,7 +3,7 @@
 The Python script creates a human 3D model with a limb partiality.
 The code simulates an amputation through the deformation of the human shape: firstly vertices and faces belonging to the limb are identified; next a <i>Mean Curvature Flow</i> is applied to them, it has the effect of "smoothing out" the geometry.
 
-<p align="center">![Alt Text](https://user-images.githubusercontent.com/34343511/196124124-eb3d1ebd-5b69-4e2e-bb88-b16ca891ce1c.gif)</p>
+<p align="center">![Alt Text](https://github.com/luismautone/MCF-FairnessGeometryProcessing/blob/main/images/mcf.gif)</p>
 
 The explored method is part of my MSc thesis in Computer Science at Sapienza University titled "Fairness in Geometry Processing".
 
