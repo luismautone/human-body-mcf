@@ -16,6 +16,6 @@ In particular we focused on the body modeling aspect of Virtual Humans and its c
 We chose [<b>SMPL</b>](https://smpl.is.tue.mpg.de) as our statistical model.
 
 We generated a 3D dataset with two types of classes: <g>\alpha</g> shapes have the most common appearance for a human body; the goal for shapes of class β was specifically to reproduce the appearance of a person that no longer possesses a limb so we wanted to have a realistic representation of this type of disability. It was important that we did not have a clean cut near the point of amputation, but instead a "smooth" deformation as given by the Mean Curvature Flow algorithm.
-Specifically we applied a <b><i>Conformalized Mean Curvature Flow</i><b> and we took [<b>mkazhdan code</b>](https://github.com/mkazhdan/ConformalizedMCF) as a reference, so convergence problems like extreme expansion of the shape were avoided. 
+Specifically we applied a <b><i>Conformalized Mean Curvature Flow</i></b> and we took [<b>mkazhdan code</b>](https://github.com/mkazhdan/ConformalizedMCF) as a reference, so convergence problems like extreme expansion of the shape were avoided. 
 
 Next we used an Autoencoder Neural Network for the creation of a latent space that contains the representation for both classes of bodies.
