@@ -5,7 +5,7 @@ The code simulates an amputation through the deformation of the human shape: fir
 
 ![](https://github.com/luismautone/MCF-FairnessGeometryProcessing/blob/main/images/mcf.gif)
 
-The explored method is part of my MSc thesis in Computer Science at Sapienza University titled <i>Fairness in Geometry Processing</i>.
+The explored method is part of my CS Master's thesis at Sapienza University titled <i>Fairness in Geometry Processing</i>.
 
 ## Thesis project
 
