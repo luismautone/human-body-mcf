@@ -21,7 +21,7 @@ Run the script by typing ```python main.py``` command inside terminal.
 
 ## Acknowledgements
 
-The SMPL Pytorch module was cloned by [gulvarol](https://github.com/gulvarol/smplpytorch) repository by [Gul Varol](https://github.com/gulvarol), that implements [<b>SMPL</b>](https://smpl.is.tue.mpg.de) human body layer for PyTorch.
+The SMPL Pytorch module was cloned from [gulvarol](https://github.com/gulvarol/smplpytorch) repository, that implements [<b>SMPL</b>](https://smpl.is.tue.mpg.de) human body layer for PyTorch.
 
 
 ## Thesis project
