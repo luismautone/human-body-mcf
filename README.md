@@ -3,6 +3,8 @@
 The Python script creates a random human 3D model with a leg partiality.
 The code simulates an amputation through the deformation of the human shape: firstly vertices and faces belonging to the limb are identified; next a [<i>Mean Curvature Flow</i>](https://en.wikipedia.org/wiki/Mean_curvature_flow) is applied to them: it has the effect of "smoothing out" the geometry.
 
+The explored method is part of my CS Master's thesis at Sapienza University titled <i>Fairness in Geometry Processing</i>.
+
 ![](https://github.com/luismautone/MCF-FairnessGeometryProcessing/blob/main/images/mcf.gif)
 
 ## Run
@@ -24,9 +26,7 @@ Run the script by typing ```python main.py``` command inside terminal.
 The SMPL Pytorch module was cloned from [gulvarol](https://github.com/gulvarol/smplpytorch) repository, that implements [<b>SMPL</b>](https://smpl.is.tue.mpg.de) human body layer for PyTorch.
 
 
-## Thesis project
-
-The explored method is part of my CS Master's thesis at Sapienza University titled <i>Fairness in Geometry Processing</i>.
+## Thesis description
 
 The thesis context is <b>Fair Machine Learning</b>, the study of correcting bias respect to sensitive variables in automated decision processes based on ML models.
 Generally current human body model generation methods create human bodies compliant with the standard person capabilities and we have very little material on bodies considered a deviation from the norm. The objective is to work on geometric methods that favor a representation of all human bodies in their diversity.
