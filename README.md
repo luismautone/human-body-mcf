@@ -7,7 +7,7 @@ The code simulates an amputation through the deformation of the human shape: fir
 
 ## Run
 
-Follow the ```smplpytorch``` setup procedure described in [gulvarol](https://github.com/gulvarol/smplpytorch) repository.
+Follow the ```smplpytorch``` setup procedure described [here](https://github.com/gulvarol/smplpytorch).
 Run the script by typing ```python main.py``` command inside terminal.
 
 ## Python dependencies
