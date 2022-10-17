@@ -7,19 +7,15 @@ The code simulates an amputation through the deformation of the human shape: fir
 
 ## Run
 
-<ul>
-  <li>Follow the ```smplpytorch``` setup procedure described in [gulvarol repo](https://github.com/gulvarol/smplpytorch)</li>
-  <li>Run the script by typing ```python main.py``` command in terminal</li>
-</ul>
+Follow the ```smplpytorch``` setup procedure described in [gulvarol repo](https://github.com/gulvarol/smplpytorch). Run the script by typing ```python main.py``` command in terminal
 
 ## Python dependencies
 
 <ul>
-  <li>[PyTorch](https://pytorch.org)</li>
-  <li>[Trimesh](https://github.com/mikedh/trimesh)</li>
-  <li>[Scipy](https://scipy.org)</li>
-  <li>[Numpy](https://numpy.org)</li>
-  <li>[robust-laplacian](https://pypi.org/project/robust-laplacian/)</li>
+  <li>PyTorch</li>
+  <li>Trimesh</li>
+  <li>Scipy & Numpy</li>
+  <li>robust-laplacian</li>
 </ul>
 
 ## Acknowledgements
